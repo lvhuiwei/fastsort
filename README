@@ -1,0 +1,23 @@
+FastSort - Fast Efficient Sort at Scale
+
+TODO:
+
+Contents
+
+    1. Installation
+    2. Getting Started
+    3. Documentation
+    4. Developers
+
+-------------------------------------------------------------------------
+
+1. Installation
+===============
+
+    1.1 Prerequisites
+    -----------------
+
+    FastSort use MPI as its distributed communication library. To compile and
+    use FastSort, you need to have a MPI installed and 'mpicc' in the PATH. For
+    now FastSort only runs on x86_64 machines.
+
