@@ -7,6 +7,7 @@ int main(int argc, char *argv[])
     int myid, numprocs;
     MPI_Comm_size(comm, &numprocs);
     MPI_Comm_rank(comm, &myid);
+    
     MPI_File fh;
     MPI_File_open(comm, "input.txt", MPI_MODE_RDWR, MPI_INFO_NULL, &fh);
     MPI_File_close(&fh);
